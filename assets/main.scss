@@ -203,3 +203,25 @@ p.quote {
     margin-top: 1em;
   }
 }
+
+h3 {
+  border-bottom: 1px #ccc dashed;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 4px;
+}
+
+h2 {
+  p {
+    font-size: inherit;
+    text-align: inherit;
+  }
+  a {
+    font-weight: bold;
+  }
+}
+
+h1 {
+  margin-bottom: 0.5em;
+}

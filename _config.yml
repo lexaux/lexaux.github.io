@@ -1,38 +1,37 @@
-# Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
-# Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-website: Your website (optional)
+---
+name: Julia Medvedeva
+title: Experienced and passionate English Teacher with specialisation in TEFL, IELTS exam preparations. Interested in Teacher Training.
+email: Julia.Medvedieva@gmail.com
+website: http://medvedeva.me
+phone: +380 (66) 858 0054
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
+#twitter_username: jekyllrb
+#github_username:  jekyll
+#dribbble_username: jekyll
+facebook_username: ilsognatori
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: ilsognatori
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#cgoogleplus_username: +jekyll
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/JuliaProfilePicture.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Hi and welcome to my CV page.
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
+  I am Julia, and I am an English Teacher. I am primarily interested in teaching adults in group settings, and also in
+  teacher training.
 
-# Projects Section
+  I was born in Ukraine, got [my CELTA degree](#certifications) in London, and worked in various educational institutions including [International
+  House London](#career). Check out my [certifications](#certifications), hear [my students](#testimonials) have a say, or just [get in touch](#contacts).
+
+  I am interesting in career opportunities, coaching and teacher training. On my way to DELTA specialisation.
+
 # projects_title: Projects #(Use this to override about projects section title)
 
 # Experience Section
@@ -60,4 +59,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
