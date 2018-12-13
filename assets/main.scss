@@ -225,3 +225,23 @@ h2 {
 h1 {
   margin-bottom: 0.5em;
 }
+
+.video-testimonial-gallery {
+  text-align: left;
+  img {
+    padding: 4px;
+    max-width: 300px;
+  }
+}
+
+.certificate-gallery {
+  //background: silver;
+  text-align: center;
+  img {
+    margin: 4px;
+    padding: 4px;
+    max-width: 300px;
+    border: 1px solid gray;
+    width: 200px;
+  }
+}
