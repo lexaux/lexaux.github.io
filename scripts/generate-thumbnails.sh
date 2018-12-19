@@ -9,5 +9,7 @@ echo $BASE
 for CERT in `find $BASE -maxdepth 1 -type f -iname *.jpg -o -iname *.jpeg`; do
     echo $CERT
     FILENAME=$(basename $CERT)
-    magick $CERT -resize 300 - | magick - -crop 300x300+10+5 $BASE/thumbnails/thumb_$FILENAME
+    # for square thumbnails uncomment below
+    # magick $CERT -resize 300 - | magick - -crop 300x300+10+5 $BASE/thumbnails/thumb_$FILENAME
+     magick $CERT -resize 300 $BASE/thumbnails/thumb_$FILENAME
 done
