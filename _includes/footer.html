@@ -21,10 +21,8 @@
         });
 
 
-        $('.certificate-gallery a').slice(2).toggle();
-
         $('#certificate-gallery-show-all').click(function(){
-            $('.certificate-gallery a').slice(2).toggle();
+            $('.certificate-gallery a').slice({{site.data.uiconfig.certificates_to_show}}).toggle();
         });
 
         $('.video-testimonial-gallery').magnificPopup({

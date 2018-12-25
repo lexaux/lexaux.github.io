@@ -43,20 +43,24 @@ I believe that learning is a lifelong experience.
  * Kherson State University, MA in English Teacher (Hons.)
  * Kherson State University, BS in English Teacher (Hons.)
  
-<a id="certificate-gallery-show-all">Show all 9 certificates</a>
- <div class="certificate-gallery">
- 	<a href="images/certificates/CELTA_Cambridge.jpg" title="CELTA Cambridge Certificate"><img src="images/certificates/thumbnails/thumb_CELTA_Cambridge.jpg"></a>
- 	<a href="images/certificates/CAE.jpg" title="Cambridge English Advanced"><img src="images/certificates/thumbnails/thumb_CAE.jpg" ></a>
- 	<a href="images/certificates/CAE_IH_Attended.jpg" title="International House Attendance CELTA Certificate"><img src="images/certificates/thumbnails/thumb_CAE_IH_Attended.jpg" ></a>
- 	<a href="images/certificates/CELTA.jpg" title="CELTA Cambridge Certificate form International House London"><img src="images/certificates/thumbnails/thumb_CELTA.jpg" ></a>
- 	<a href="images/certificates/IELTS_Apr_2015.jpg" title="IELTS"><img src="images/certificates/thumbnails/thumb_IELTS_Apr_2015.jpg" ></a>
- 	<a href="images/certificates/Julia_IELTS_AUG_2017.jpg" title="IELTS"><img src="images/certificates/thumbnails/thumb_Julia_IELTS_AUG_2017.jpg" ></a>
- 	<a href="images/certificates/Julia_IELTS_Oct_2013.jpg" title="IELTS"><img src="images/certificates/thumbnails/thumb_Julia_IELTS_Oct_2013.jpg" ></a>
- 	<a href="images/certificates/Julia_IH_IELTS_Speaking.jpg" title="IELTS Teaching Speaking Course Certificate"><img src="images/certificates/thumbnails/thumb_Julia_IH_IELTS_Speaking.jpg" ></a>
- 	<a href="images/certificates/Julia_ISTQB.jpg" title="ISTQB International Testing Certificate"><img src="images/certificates/thumbnails/thumb_Julia_ISTQB.jpg" ></a>
+ 
+<div class="certificate-gallery">
+{% for certificate in site.data.certificates %}
+     <a 
+        href="images/certificates/{{ certificate.filename }}" 
+        title="{{ certificate.description }}"
+        {% if forloop.index > site.data.uiconfig.certificates_to_show %}
+            style="display:none;"
+        {% endif %}
+        >
+            <img src="images/certificates/thumbnails/thumb_{{ certificate.filename }}">
+     </a>
+{% endfor %}
  </div>
 
- 
+<a id="certificate-gallery-show-all">Show all {{ site.data.certificates | size}} certificates</a>
+
+
 ### Contacts
  
 I prefer being contacted by email, but if you need something urgently, don't hesitate to give me a call. 
