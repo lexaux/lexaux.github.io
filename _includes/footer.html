@@ -13,6 +13,20 @@
 
 <script>
     $(document).ready(function () {
+
+        $('.video-testimonial-gallery a').slice(1).toggle();
+
+        $('#testimonial-gallery-show-all').click(function(){
+            $('.video-testimonial-gallery a').slice(1).toggle();
+        });
+
+
+        $('.certificate-gallery a').slice(2).toggle();
+
+        $('#certificate-gallery-show-all').click(function(){
+            $('.certificate-gallery a').slice(2).toggle();
+        });
+
         $('.video-testimonial-gallery').magnificPopup({
             delegate: 'a',
             type: 'video',

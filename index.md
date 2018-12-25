@@ -9,6 +9,8 @@ Answer to this question has a great impact on the learning path and techniques.
 
 I have asked a few of my former students to record a short video detailing their experience – please watch below. 
 
+<a id="testimonial-gallery-show-all">Show all 4 video testimonials</a>
+
 <div class="video-testimonial-gallery">
 	<a href="https://www.youtube.com/watch?v=BtQxs7gyEgA" class="mfp-iframe" title="Alexandra Testimonial"><img src="images/videothumbnails/AlexandraSnapshot.png" width="450"></a>
 	<a href="https://www.youtube.com/watch?v=288uWlnRNpo" class="mfp-iframe" title="Alex Testimonial"><img src="images/videothumbnails/AlexSnapshot.png" width="450"></a>
@@ -41,8 +43,7 @@ I believe that learning is a lifelong experience.
  * Kherson State University, MA in English Teacher (Hons.)
  * Kherson State University, BS in English Teacher (Hons.)
  
-Please see below list of my certificates:
-
+<a id="certificate-gallery-show-all">Show all 9 certificates</a>
  <div class="certificate-gallery">
  	<a href="images/certificates/CELTA_Cambridge.jpg" title="CELTA Cambridge Certificate"><img src="images/certificates/thumbnails/thumb_CELTA_Cambridge.jpg"></a>
  	<a href="images/certificates/CAE.jpg" title="Cambridge English Advanced"><img src="images/certificates/thumbnails/thumb_CAE.jpg" ></a>
