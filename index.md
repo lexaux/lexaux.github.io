@@ -9,14 +9,25 @@ Answer to this question has a great impact on the learning path and techniques.
 
 I have asked a few of my former students to record a short video detailing their experience – please watch below. 
 
-<a id="testimonial-gallery-show-all">Show all 4 video testimonials</a>
 
 <div class="video-testimonial-gallery">
-	<a href="https://www.youtube.com/watch?v=BtQxs7gyEgA" class="mfp-iframe" title="Alexandra Testimonial"><img src="images/videothumbnails/AlexandraSnapshot.png" width="450"></a>
-	<a href="https://www.youtube.com/watch?v=288uWlnRNpo" class="mfp-iframe" title="Alex Testimonial"><img src="images/videothumbnails/AlexSnapshot.png" width="450"></a>
-	<a href="https://www.youtube.com/watch?v=0cre4r7aD30" class="mfp-iframe" title="Alex Testimonial"><img src="images/videothumbnails/AlexSnapshot.png" width="450"></a>
-	<a href="https://www.youtube.com/watch?v=cPovYmxz6UQ" class="mfp-iframe" title="Alex Testimonial"><img src="images/videothumbnails/AlexSnapshot.png" width="450"></a>
+
+{% for testimonial in site.data.testimonials %}
+	<a href="{{ testimonial.video }}" 
+	    class="mfp-iframe" 
+	    title="{{ testimonial.description }}"
+        {% if forloop.index > site.data.uiconfig.testimonials_to_show %}
+            style="display:none;"
+        {% endif %}
+	    >
+	        <img 
+	            src="images/videothumbnails/{{ testimonial.thumbnail }}">
+	</a>
+{% endfor %}
 </div>
+
+<a id="testimonial-gallery-show-all">Show all {{  site.data.testimonials | size }} video testimonials</a>
+
 
 
 ### Work Experience

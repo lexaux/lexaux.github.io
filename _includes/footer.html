@@ -14,10 +14,8 @@
 <script>
     $(document).ready(function () {
 
-        $('.video-testimonial-gallery a').slice(1).toggle();
-
         $('#testimonial-gallery-show-all').click(function(){
-            $('.video-testimonial-gallery a').slice(1).toggle();
+            $('.video-testimonial-gallery a').slice({{site.data.uiconfig.testimonials_to_show}}).toggle();
         });
 
 
