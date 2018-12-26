@@ -39,12 +39,14 @@ Timeline should go here. Nevertheless:
     * A few Intermediate and Pre-Intermediate Groups
     * Teacher Training seminars: ...
     * Teacher Training Seminars: ...
+ * 2016 [International House London](https://www.ihlondon.com/), English teacher for adult students
  * 2010- NOW Private Tutoring
  *  
  
 ### Education and Certifications
 
-I believe that learning is a lifelong experience. 
+I believe that learning is a lifelong experience. My path so far: 
+
  * IELTS preparation course from International House London
     * IELTS Teaching Speaking
     * IELTS Teaching Writing
@@ -78,8 +80,7 @@ I prefer being contacted by email, but if you need something urgently, don't hes
 
 My contact details: 
 
-* email: 
-* phone: 
-* website: 
-* linkedIn: 
-* facebook: 
+* email: ilsognatori@gmail.com 
+* phone: +380 (66) 858 0054
+* website: http://www.medvedeva.me
+* linkedIn: https://linkedin.com/medvedeva
